@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 13px;
+}
+
+.footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.img {
+    width: 55%;
+    background-image: url("./Img/twitter.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 45%;
+    position: relative;
+}
+
+.CTA {
+    position: absolute;
+    top: 250px;
+    bottom: auto;
+    left: 40px;
+    min-width: 437px;
+    max-width: 760px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.filled {
+    background-color: #1da1f2;
+    color: #fff;
+    border-radius: 100px;
+    border-style: none;
+    color: #fffff;
+    height: 46px;
+    width: 340px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.filled:hover {
+    background-color: #1996E3;
+  }
+
+.outline {
+    border: 0 solid #1da1f2;
+    border-radius: 100pt;
+    box-shadow: 0 0 3px #1da1f2;
+    background-color: #fff;
+    color: #1da1f2;
+    font-size: 16px;
+    height: 46px;
+    width: 340px;
+    cursor: pointer;
+}
+
+.outline:hover {
+    background-color: #EDF6FC;
+}
+
+a {
+     font-size: 13px;
+     text-decoration: none;
+     color: black;
+     margin-right: 20px;
+     font-weight: 400;
+ }
+ 
+ a:hover {
+    text-decoration: underline;
+ }
+ 
+ h1 {
+     margin: 0pt;
+     font-size: 50pt;
+     font-weight: 800;
+     margin-bottom: 30px;
+ }
+
+ .description {
+     margin: 0pt;
+     font-size: 24pt;
+     font-weight: bold;
+     margin-bottom: 24px;
+ }
